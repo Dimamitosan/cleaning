@@ -97,6 +97,10 @@ td{
     background-color: white;
 }
 .modal{
+
+    text-align: center;
+   
+    flex-direction: column;
     position: fixed;
     top:0;
     left:0;
@@ -122,14 +126,18 @@ td{
     text-align: center;
 }
 .modal-window{
+    
     position: relative;
     z-index: 2;
-    width:550px;
-    height: 300px;
+    width:50%;
+    height: 30%;
+    min-height: 300px;
+    min-width: 400px;
     border-radius: 10px;
     box-shadow: 0 10px 15px rgba(o,o,o, .4);
     background-color: #fff;
     padding: 30px;
+    
 }
 
 .btn-close{
@@ -143,4 +151,21 @@ td{
 
 .btn-close:hover{
     opacity: 1;
+}
+
+.phone{
+     margin: 6% 0;
+    text-align: center;
+}
+.problem{
+    box-sizing: border-box;
+    width: 50%;
+    border: 1px solid black;
+    height: 50px;
+}
+
+
+
+.item{
+    overflow: hidden;
 }

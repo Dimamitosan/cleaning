@@ -31,10 +31,27 @@
 
             <div class="modal" id="my_modal">
                 <div class="modal-window" >
-                    <input class = "date" type="date"  id="date">
-                    <div class="tephone">
-                        <input type="text" name="phone" id="phone" placeholder="+358-0-000-000">
+                    <div class="write_us">
+                        <p>Write us</p>
                     </div>
+                    <input class = "date, item" type="date"  id="date">
+
+
+                    <div class="tephone, item">
+                        <input type="tel" 
+                        class = "phone art-stranger"
+                        name="phone" 
+                        id="phone" 
+                        placeholder="+358-0-000-000">
+                    </div>
+                   
+                        <textarea name="problem" class="problem" placeholder="Write about your problem"> </textarea>  
+                  
+                    <div class="call_us, item">
+                        <p> Call us</p>  
+                        <p>+14211241412</p>
+                    </div>
+
                     <button class = "btn-close">X</button>
                 </div>
                 <div class="overlay"></div>
@@ -198,7 +215,14 @@
     </div>
     
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
     <script src="script.js"></script>
-    <script src="https://unpkg.com/imask" type="module"></script>
+    
+
+
+ 
+
 </body>
 </html>
